@@ -16,7 +16,7 @@ describe('fibonacci sequence', function() {
 
     var bonusTest = enableBonusTest ? it : it.skip;
     bonusTest('BONUS: should return the set of first n terms', function () {
-        expect(fib_set(2)).to.eql([1, 1]);
-        expect(fib_set(5)).to.eql([1, 1, 2, 3, 5]);
+        expect(fibSet(2)).to.eql([1, 1]);
+        expect(fibSet(5)).to.eql([1, 1, 2, 3, 5]);
     });
 });
